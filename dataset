@@ -1,0 +1,15 @@
+# Dataset
+
+This dataset contains marketing campaign performance and sales transaction data used to evaluate channel effectiveness, revenue contribution, and campaign performance trends.
+
+## Dataset Fields
+
+* Campaign Channel
+* Sales Amount
+* Order Date
+* Revenue Metrics
+* Customer Transactions
+
+## Dataset Purpose
+
+The dataset was used to analyze marketing channel performance, identify revenue-driving campaigns, evaluate sales trends, and generate business recommendations.
