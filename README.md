@@ -15,6 +15,14 @@ The business wanted to understand which marketing channels generate the highest 
 - Revenue and sales performance metrics
 - Monthly transaction data
 
+## KPIs Tracked
+
+* Total Revenue
+* Revenue Contribution by Channel
+* Monthly Sales
+* Average Order Value (AOV)
+* Campaign Performance Share
+
 ## Analysis Approach
 
 - Analyzed channel-wise revenue contribution
@@ -37,6 +45,10 @@ The business wanted to understand which marketing channels generate the highest 
 - Investigate drivers behind June sales decline
 - Monitor AOV trends to improve campaign profitability
 
+## Business Impact
+
+The analysis identified revenue-driving and underperforming marketing channels, enabling more effective budget allocation, campaign optimization, and performance monitoring. The findings highlighted opportunities to increase investment in high-performing channels while improving strategies for low-performing campaigns.
+
 ## Tools Used
 
 - SQL
@@ -51,8 +63,9 @@ The business wanted to understand which marketing channels generate the highest 
 
 ## Repository Structure
 
-dataset/
-sql/
-dashboard-screenshots/
-report/
-README.md
+- dataset → Source data and data description
+- sql → SQL queries used for analysis
+- dashboard-screenshots → Power BI dashboard images
+- report → Insights and recommendations
+
+- README.md
