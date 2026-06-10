@@ -1,4 +1,9 @@
 -- =====================================
+-- MARKETING CHANNEL PERFORMANCE ANALYSIS
+-- SQL DATA PREPARATION WORKFLOW
+-- =====================================
+
+-- =====================================
 -- DATA EXPLORATION
 -- =====================================
 
@@ -108,3 +113,27 @@ ADD CONSTRAINT fk_sale
 FOREIGN KEY (sale_id)
 REFERENCES sales(sale_id);
 
+-- =====================================
+-- BUSINESS ANALYSIS
+-- =====================================
+
+-- Revenue by Marketing Channel
+select 
+  channel, 
+  sum(total_amount) as Revenue
+from sales
+group by channel
+order by Revenue desc;
+
+-- Monthly Sales Trend Analysis
+select 
+  month(sale_date) as month,
+  sum(total_amount) as Monthly_Sales
+from sales
+group by month(sale_date)
+order by Month;
+
+-- Average Order Value (AOV)
+select
+  round(avg(total_amount), 2) as Average_Order_Value
+from sales;
