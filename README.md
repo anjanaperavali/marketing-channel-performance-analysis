@@ -25,10 +25,10 @@ The business wanted to understand which marketing channels generate the highest 
 
 ## Analysis Approach
 
-- Analyzed channel-wise revenue contribution
-- Evaluated monthly sales trends
-- Compared Average Order Value (AOV) across periods
-- Identified high-performing and underperforming marketing channels
+* Analyzed channel-wise revenue contribution and campaign performance.
+* Evaluated monthly sales trends and revenue fluctuations.
+* Compared Average Order Value (AOV) across periods.
+* Identified revenue-driving and underperforming marketing channels.
 
 ## Key Insights
 
@@ -51,7 +51,7 @@ The analysis identified revenue-driving and underperforming marketing channels, 
 
 ## Tools Used
 
-- SQL
+- SQL(MySQL)
 - Excel
 - Power BI
 
@@ -67,5 +67,3 @@ The analysis identified revenue-driving and underperforming marketing channels, 
 - sql → SQL queries used for analysis
 - dashboard-screenshots → Power BI dashboard images
 - report → Insights and recommendations
-
-- README.md
