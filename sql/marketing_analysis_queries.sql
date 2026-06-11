@@ -118,22 +118,22 @@ REFERENCES sales(sale_id);
 -- =====================================
 
 -- Revenue by Marketing Channel
-select 
+SELECT 
   channel, 
-  sum(total_amount) as Revenue
-from sales
-group by channel
-order by Revenue desc;
+  sum(total_amount) AS Revenue
+FROM sales
+GROUP BY channel
+ORDER BY Revenue DESC;
 
 -- Monthly Sales Trend Analysis
-select 
-  month(sale_date) as month,
-  sum(total_amount) as Monthly_Sales
-from sales
-group by month(sale_date)
-order by Month;
+SELECT 
+  MONTH(sale_date) AS MONTH,
+  sum(total_amount) AS Monthly_Sales
+FROM sales
+GROUP BY MONTH(sale_date)
+ORDER BY MONTH;
 
 -- Average Order Value (AOV)
-select
-  round(avg(total_amount), 2) as Average_Order_Value
-from sales;
+SELECT
+  round(avg(total_amount), 2) AS Average_Order_Value
+FROM sales;
